@@ -20,94 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea76344b-d570-4fc7-a6a3-6567c5220ec2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/src/main/java/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/src/main/java/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/src/main/java/com/codegym/controller/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/src/main/java/com/codegym/model/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/src/main/java/com/codegym/repository/IEmailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/src/main/java/com/codegym/repository/impl/EmailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/src/main/java/com/codegym/service/IEmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_1_email_setting/src/main/java/com/codegym/service/impl/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/src/main/java/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/src/main/java/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/src/main/java/com/codegym/controller/MusicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/src/main/java/com/codegym/model/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/src/main/java/com/codegym/repository/IMusicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/src/main/java/com/codegym/repository/impl/MusicRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/src/main/java/com/codegym/service/IMusicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/src/main/java/com/codegym/service/impl/MusicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise_2_music_app/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/HealthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Health.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/IHealthRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/impl/HealthRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/IHealthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/impl/HealthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_1_form_and_data_binding/src/main/java/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_1_form_and_data_binding/src/main/java/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_1_form_and_data_binding/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_1_form_and_data_binding/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_1_form_and_data_binding/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_1_form_and_data_binding/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/src/main/java/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/src/main/java/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/src/main/java/com/codegym/model/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/src/main/java/com/codegym/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/src/main/java/com/codegym/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_2_login/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/src/main/java/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/src/main/java/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/src/main/java/com/codegym/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/src/main/java/com/codegym/model/ProductForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/src/main/java/com/codegym/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/src/main/java/com/codegym/service/impl/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/src/main/resources/upload_file.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/practice_3_upload_file/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/customer-management/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/customer-management/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/exercise_2_calculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/exercise_2_calculator/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/exercise_2_calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/exercise_2_calculator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_thymeleaf/practice/practice_customer_management_thymleaf/src/main/java/com/codegym/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_thymeleaf/practice/practice_customer_management_thymleaf/src/main/java/com/codegym/configuration/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_thymeleaf/practice/practice_customer_management_thymleaf/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_thymeleaf/practice/practice_customer_management_thymleaf/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_thymeleaf/practice/practice_customer_management_thymleaf/src/main/java/com/codegym/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_thymeleaf/practice/practice_customer_management_thymleaf/src/main/java/com/codegym/service/impl/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_thymeleaf/practice/practice_customer_management_thymleaf/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_thymeleaf/practice/practice_customer_management_thymleaf/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_thymeleaf/practice/practice_customer_management_thymleaf/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_thymeleaf/practice/practice_customer_management_thymleaf/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_thymeleaf/practice/practice_customer_management_thymleaf/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss3_thymeleaf/practice/practice_customer_management_thymleaf/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ss2_spring_controller/practice-customer/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_spring_controller/practice-customer/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,6 +182,8 @@
       <option name="presentableId" value="Default" />
       <updated>1651751909994</updated>
       <workItem from="1651751913849" duration="4127000" />
+      <workItem from="1651808578466" duration="1272000" />
+      <workItem from="1651818238253" duration="288000" />
     </task>
     <servers />
   </component>
@@ -271,6 +200,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651753275504">
@@ -281,6 +211,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1651752717316" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1651808823624">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1651808823624" />
     <state width="1024" height="210" key="GridCell.Tab.0.bottom" timestamp="1651756709501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -329,5 +263,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1651756709501" />
+    <state x="209" y="0" key="new project wizard" timestamp="1651808827255">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1651808827255" />
   </component>
 </project>
