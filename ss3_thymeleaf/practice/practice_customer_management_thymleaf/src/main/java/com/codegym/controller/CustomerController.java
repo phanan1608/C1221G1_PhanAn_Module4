@@ -17,7 +17,7 @@ import java.util.List;
 @RequestMapping("/customer")
 public class CustomerController {
     @Autowired
-    ICustomerService customerService;
+    private ICustomerService customerService;
 
     @GetMapping("")
     public String index(Model model) {
