@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container-fluid col-8">
+    <h3>Song</h3>
+    <p>
+        <a th:href="@{/song/create}">
+            Add new song
+        </a>
+    </p>
+    <div class="notify">
+        <div th:if="${msg}">
+            <span style="color: darkcyan" th:text="${msg}"></span>
+        </div>
+    </div>
+    <table class="table table-striped">
+        <thead>
+        <tr style="background-color: #069A8E;color: white">
+            <th class="col-1">ID</th>
+            <th class="col-3">Name</th>
+            <th class="col-2">Artist</th>
+            <th class="col-1">Genre</th>
+            <th class="col-3">Link</th>
+            <th class="col-2">Action</th>
+            <!--            <th>Delete</th>-->
+            <!--            <th>View</th>-->
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="song,loop : ${songList}">
+            <td th:text="${song.id}"></td>
+            <td >
+                <a th:href="@{/song/{id}/view(id=${song.getId()})}">
+                    <span th:text="${song.name}"></span>
+                </a>
+
+            </td>
+            <td th:text="${song.getArtist()}"></td>
+            <td th:text="${song.genre}"></td>
+            <td><a target="_blank" th:href="@{${song.link}}" th:text="${song.link}" href=""></a></td>
+
+            <td><a class="btn btn-warning" th:href="@{/song/{id}/edit(id=${song.getId()})}">edit</a>
+                <button
+                        th:attr="onclick=|deleteModal('${song.id}', '${song.name}', '${song.artist}')|"
+                        type="button" class="btn btn-danger" data-toggle="modal"
+                        data-target="#exampleModal">
+                    Delete
+                </button>
+            </td>
+            <!--            <td><a class="btn btn-info" th:href="@{/product/{id}/view(id=${product.getId()})}">view</a></td>-->
+        </tr>
+    </table>
+</div>
+
+<div class="modal fade" id="exampleModal" data-backdrop="static" data-keyboard="false" tabindex="-1"
+     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Delete Confirm</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form th:action="@{/song/delete}" method="post">
+            <div class="modal-body">
+                <h3>Do you want to delete product with information: </h3>
+                <div id="song_id"></div>
+                <div id="song_name"></div>
+                <div id="song_artist"></div>
+                <input type="hidden" name="id" id="id_delete">
+                <input type="hidden" name="action" value="delete">
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-danger">Yes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script>
+    function deleteModal(id,name,artist) {
+        document.getElementById("id_delete").value = id;
+        document.getElementById("song_id").innerText = "id: " + id;
+        document.getElementById("song_name").innerText = "name: " + name;
+        document.getElementById("song_artist").innerText = "artist: " + artist;
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
