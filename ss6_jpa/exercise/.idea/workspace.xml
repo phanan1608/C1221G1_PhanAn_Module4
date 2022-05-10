@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2fffef53-50a2-40ff-9c8d-df64c254e00a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_1_blog_application/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_1_blog_application/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_1_blog_application/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_1_blog_application/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_1_blog_application/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_1_blog_application/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_1_blog_application/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_1_blog_application/src/main/java/com/codegym/exercise_blog_application/ExerciseBlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_1_blog_application/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_1_blog_application/src/test/java/com/codegym/exercise_blog_application/ExerciseBlogApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_blog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_blog/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_blog/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_blog/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_blog/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_blog/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_blog/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_blog/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_blog/src/main/java/com/example/demo/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_blog/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise_blog/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.gradle/6.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/java/com/codegym/cms/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/java/com/codegym/cms/configuration/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/java/com/codegym/cms/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/java/com/codegym/cms/repository/IGeneralRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/java/com/codegym/cms/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/java/com/codegym/cms/service/IGeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_1_customer_management/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.gradle/6.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/build/classes/java/main/com/codegym/cms/configuration/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/build/classes/java/main/com/codegym/cms/configuration/AppInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/build/classes/java/main/com/codegym/cms/controller/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/build/classes/java/main/com/codegym/cms/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/build/classes/java/main/com/codegym/cms/repository/CustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/build/classes/java/main/com/codegym/cms/repository/ICustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/build/classes/java/main/com/codegym/cms/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/build/classes/java/main/com/codegym/cms/service/ICustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/build/libs/practice_2_ spring_jpa_stored_procedure-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/src/main/java/com/codegym/cms/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/src/main/java/com/codegym/cms/configuration/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/src/main/java/com/codegym/cms/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/src/main/java/com/codegym/cms/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/practice_2_ spring_jpa_stored_procedure/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss2_spring_controller/practice-customer/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2_spring_controller/practice-customer/customer-management" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="28xOZ0htzK5xlrPslgzOPRBZsYt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fffef53-50a2-40ff-9c8d-df64c254e00a" name="Default Changelist" comment="" />
+      <created>1652154821925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652154821925</updated>
+      <workItem from="1652154824060" duration="1058000" />
+      <workItem from="1652156382847" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="152" key="FileChooserDialogImpl" timestamp="1652155277490">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1652155277490" />
+    <state x="209" y="72" key="new project wizard" timestamp="1652155293564">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1652155293564" />
+  </component>
+</project>
