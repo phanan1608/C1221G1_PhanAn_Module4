@@ -31,9 +31,9 @@
         <tbody>
         <tr th:each="product,loop : ${products}">
             <td th:text="${product.id}"></td>
-            <td >
+            <td>
                 <a th:href="@{/product/{id}/view(id=${product.getId()})}">
-                   <span th:text="${product.name}"></span>
+                    <span th:text="${product.name}"></span>
                 </a>
 
             </td>
@@ -42,10 +42,26 @@
             <td><a class="btn btn-warning" th:href="@{/product/{id}/edit(id=${product.getId()})}">edit</a>
                 <a class="btn btn-danger" th:href="@{/product/{id}/delete(id=${product.getId()})}">delete</a>
             </td>
-<!--            <td><a class="btn btn-info" th:href="@{/product/{id}/view(id=${product.getId()})}">view</a></td>-->
+            <!--            <td><a class="btn btn-info" th:href="@{/product/{id}/view(id=${product.getId()})}">view</a></td>-->
         </tr>
         </tbody>
     </table>
+</div>
+<div class="d-block m-3 justify-content-center">
+    <div class="text-center">
+        <span th:text="${products.number + 1}"></span>/
+        <span style="font-weight: bold" th:text="${products.totalPages}"></span> pages
+    </div>
+    <div class="text-center">
+        <a class="btn btn-info" th:if="${products.hasPrevious()}"
+           th:href="@{list(page=${products.number - 1}, keyword=${name_keyword})}"><i
+
+                class="fas fa-chevron-left"></i></a>
+
+        <a class="btn btn-info" th:if="${products.hasNext()}"
+           th:href="@{list(page=${products.number + 1}, keyword=${name_keyword})}"><i
+                class="fas fa-chevron-right"></i></a>
+    </div>
 </div>
 
 <footer th:replace="/layout :: footer"></footer>

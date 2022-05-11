@@ -8,11 +8,10 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import java.util.Optional;
 
 @Controller
 @RequestMapping("/product")
@@ -20,10 +19,11 @@ public class ProductController {
     @Autowired
     IProductService productService;
 
-    @GetMapping("")
-    public String goToProductList(Model model, @PageableDefault(value = 2)Pageable pageable){
-        Page<Product> products = productService.findAll(pageable);
-        model.addAttribute("products",this.productService.findAll(pageable));
+    @GetMapping("/list")
+    public String goToProductList(Model model, @PageableDefault(value = 5) Pageable pageable, @RequestParam Optional<String> keyword){
+        String name = keyword.orElse("");
+        model.addAttribute("name_keyword",name);
+        model.addAttribute("products",this.productService.findAll(pageable,name));
         return "index";
     }
 
@@ -37,7 +37,7 @@ public class ProductController {
     public String save(Product product, RedirectAttributes redirectAttributes) {
         this.productService.save(product);
         redirectAttributes.addFlashAttribute("success","Create Successfully!!!");
-        return "redirect:/product/";
+        return "redirect:/product/list";
     }
 
     @GetMapping("/{id}/edit")
