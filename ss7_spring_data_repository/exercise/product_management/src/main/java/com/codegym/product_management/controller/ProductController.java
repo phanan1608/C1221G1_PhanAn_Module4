@@ -49,7 +49,7 @@ public class ProductController {
     @PostMapping("/update")
     public String update(Product product) {
         this.productService.update(product);
-        return "redirect:/product/";
+        return "redirect:/product/list";
     }
 
     @GetMapping("/{id}/delete")
