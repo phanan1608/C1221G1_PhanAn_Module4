@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+<nav></nav>
+<div>
+    <h3>User</h3>
+    <p>
+        <a th:href="@{/user/create}">
+            Add new user
+        </a>
+    </p>
+    <div>
+        <div th:if="${success}">
+            <span style="color: darkcyan" th:text="${success}"></span>
+        </div>
+    </div>
+    <table class="table table-striped">
+        <thead>
+        <tr style="background-color: #069A8E;color: white">
+            <th class="col-2">ID</th>
+            <th class="col-3">First Name</th>
+            <th class="col-2">Last Name</th>
+            <th class="col-2">Phone Number</th>
+            <th class="col-2">Day Of Birth</th>
+            <th class="col-2">Email</th>
+            <!--            <th>Delete</th>-->
+            <!--            <th>View</th>-->
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="user,loop : ${userList}">
+            <td th:text="${user.id}"></td>
+            <td th:text="${user.firstName}"></td>
+            <td th:text="${user.lastName}"></td>
+            <td th:text="${user.phoneNumber}"></td>
+            <td th:text="${user.dayOfBirth}"></td>
+            <td th:text="${user.email}"></td>
+
+
+
+            <!--            <td><a class="btn btn-info" th:href="@{/product/{id}/view(id=${product.getId()})}">view</a></td>-->
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
